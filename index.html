@@ -113,7 +113,7 @@
     // --- Silk対策1: オブジェクトを外で作り、再利用する ---
     const speechMsg = new SpeechSynthesisUtterance();
     speechMsg.lang = 'en-US';
-    speechMsg.rate = 0.75; // 速度（ここでお好みで調整）
+    speechMsg.rate = 0.75; // 読み上げ速度 // 読み上げ速度
 
     // --- Silk対策2: 初回クリック時に音声エンジンを叩き起こす ---
     window.addEventListener('click', function() {
